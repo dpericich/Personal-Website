@@ -1,95 +1,55 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client'
+import Link from 'next/link';
+import { Box, Text, Button } from '@chakra-ui/react'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+    <div>
+      {/* Hero Section */}
+      <Box 
+        width="100%"
+        height="30rem"
+        backgroundImage="url('hero.jpeg')"
+        backgroundPosition="center"
+        backgroundSize="contain"
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+       >
+        <Text
+          fontSize="5rem"
         >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          I'm from the fields not the palace.
+        </Text>
+       </Box>
+       {/* Contact Section */}
+       <Box
+        backgroundColor="white"
+        padding="1.5rem"
+        display="flex"
+        flexDir="column"
+        alignItems="center"
+        justifyContent="center"
+       >
+        <Text
+          color="blue"
+          fontSize="1.7rem"
         >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
+          Looking to Start a Project, or Have a Bug to Fix?
+        </Text>
+        <Button
+          marginTop="2rem"
+          fontSize="2rem"
+          padding="1rem"
         >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+          <Link href="/contact-me">
+            Let's Chat
+          </Link>
+        </Button>
+       </Box>
+    </div>
+    // Hero section
+    // Brief Intro Section
+    // Section Linking to "Work with Me"
+      )
 }
