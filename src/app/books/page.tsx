@@ -3,7 +3,9 @@ import React, { ReactElement } from 'react';
 
 const BooksPage = (): ReactElement => {
     return(
-        <div>Books Page</div>
+        <div>
+            This will contain my books. Maybe These link to other pages as well
+        </div>
     );
 };
 
