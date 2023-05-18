@@ -2,15 +2,15 @@
 'use client'
 import React, { ReactElement } from 'react';
 import Link from 'next/link';
-import { Box, Flex } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import NavButton from './navButton';
 
-// What should be in this Navbar?
-// Projects
-// Articles
-// Contact Me / About Me
-// My Books
-const navElements = [
+type navElement = {
+    path: string,
+    linkText: string
+}
+
+const navElements: navElement[] = [
     {linkText: "Projects", path: "/projects"},
     {linkText: "Articles", path: "/blog"},
     {linkText: "Books", path: "/books"},
