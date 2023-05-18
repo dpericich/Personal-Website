@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Test",
+        "description": "This is test data to see how data is loaded in",
+        "previewImagePath": "previewImage.jpeg",
+        "projectLinkText": "Learn more about this project",
+        "projectLinkPath": "/projects/test-project"
+    }
+]
