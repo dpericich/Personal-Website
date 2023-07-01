@@ -2,12 +2,13 @@
 'use client'
 import React, { ReactElement } from 'react';
 import Link from 'next/link';
-import { Box } from '@chakra-ui/react';
+import { Flex, Box } from '@chakra-ui/react';
 import NavButton from './navButton';
+import { idText } from 'typescript';
 
 type navElement = {
     path: string,
-    linkText: string
+    linkText: string,
 }
 
 const navElements: navElement[] = [
@@ -19,19 +20,19 @@ const navElements: navElement[] = [
 
 const Navbar = (): ReactElement => {
     return(
-        <Box 
-            display="flex" 
+        <Flex 
             alignItems="center" 
             justifyContent="flex-start"
             padding="1.7rem"
         >
-            <Box className="text" marginRight="auto" color="red">
+            <Box className="text" marginRight="auto" color="red" fontSize="3rem">
                 <Link href="/">Daniel Pericich</Link>
             </Box>
+            {/* Will need to create hamburger here with the links below a certain screen size */}
             {navElements.map(el => (
-                <NavButton path={el.path} linkText={el.linkText} />
+                <NavButton path={el.path} linkText={el.linkText} key={el.linkText}/>
             ))}
-        </Box>
+        </Flex>
     )
 };
 
