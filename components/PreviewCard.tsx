@@ -11,10 +11,10 @@ interface previewCardProps {
     // link path    
 }
 
-const previewCard = (): ReactElement => {
+const PreviewCard = (): ReactElement => {
     return(
-        <Flex></Flex>
+        <Flex>Hello Daniel!</Flex>
     )
 };
 
-export default previewCard;
+export default PreviewCard;
