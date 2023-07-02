@@ -1,9 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+import Navbar from '../../components/navbar';
+import Footer from '../../components/footer';
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Daniel Pericich',
@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <div style={{height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
         <Navbar />
-          {children}
+          <div>
+            {children}
+          </div>
         <Footer />
       </div>
     </html>
