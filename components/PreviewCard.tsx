@@ -16,15 +16,15 @@ const PreviewCard = (props: previewCardProps): ReactElement => {
             <Flex
                 backgroundColor="white"
                 color="black"
-                padding="1rem"
-                key={props.id}
+                padding="1rem 2rem"
+                borderBottom="1px solid black"
             >
                 <Image 
                     src={props.imagePath} 
                     alt={props.title}
                     boxSize="150px"
                     objectFit="cover"
-                    margin="0 2rem"
+                    marginRight="2rem"
                 />
                 <Flex flexDir="column" justifyContent="space-between" padding="0.5rem 0">
                     <Heading as="h3" >{props.title}</Heading>
