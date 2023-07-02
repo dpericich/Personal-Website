@@ -1,0 +1,42 @@
+ [
+    {
+        "id": 5,
+        "title": "The Hidden Dangers of QR Codes",
+        "blogImage": "/articleAssets/placeholder.jpeg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",        
+        "linkPath": "https://medium.com/p/the-hidden-dangers-of-qr-code-menus-3adbd03ea5a7",
+        "tags": "software_development"
+    },
+    {
+        "id": 4,
+        "title": "Writing an Algorithm to Calculate Article Read Length",
+        "blogImage": "/articleAssets/placeholder.jpeg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "linkPath": "https://medium.com/p/writing-an-algorithm-to-calculate-article-read-length-b45181f16a79",
+        "tags": "software_development"
+    },
+    {
+        "id": 3,
+        "title": "How to Write Great Software Engineering Tickets: Separating Architecture from Tasks",
+        "blogImage": "/articleAssets/placeholder.jpeg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "linkPath": "https://medium.com/p/how-to-write-great-software-engineering-tickets-separating-architecture-from-tasks-a04b399734b0",
+        "tags": "software_development"
+    },
+    {
+        "id": 2,
+        "title": "How to Handle Timeout Errors from Third Party APIs",
+        "blogImage": "/articleAssets/placeholder.jpeg",
+        "excerpt": "Working with third party APIs can be tricky. Dealing with any system that is not under your direct control can lead to issues. Whether these issues are caused by a lack of your understanding of the…",
+        "linkPath": "https://medium.com/p/how-to-handle-timeout-errors-from-third-party-apis-8b8b334bdfc7",
+        "tags": "software_development"
+    },
+    {
+        "id": 1,
+        "title": "How to Hack User Logins with Dictionary Attacks and Custom CRMs",
+        "blogImage": "/articleAssets/placeholder.jpeg",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "linkPath": "https://medium.com/p/how-to-hack-user-logins-with-dictionary-attacks-and-custom-crms-c39d4d3f29823adbd03ea5a7",
+        "tags": "software_development"
+    }
+]
